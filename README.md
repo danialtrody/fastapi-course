@@ -1,42 +1,46 @@
 📚 FastAPI Practice – Udemy Course
 
-This repository contains practice code, examples, and exercises created while following the Udemy course:
-👉 FastAPI – The Complete Course
-(https://www.udemy.com/course/fastapi-the-complete-course
-)
+    This repository contains practice code, examples, and exercises built while studying the Udemy course:
+    👉 FastAPI – The Complete Course
+    https://www.udemy.com/course/fastapi-the-complete-course
 
-📌 What this project is
+📌 Overview
+  
+    This project is a collection of hands-on exercises I’m completing while learning FastAPI.
+    Each Python file demonstrates a different concept from the course such as routing, path/query parameters, and building small APIs with FastAPI and Uvicorn.
+    
+🧠 What I’m Learning
 
-This project is not a full production application, but a collection of examples I’m building while learning FastAPI including:
+Throughout this course I’m practicing:
 
-basic routing
-
-path parameters
-
-query parameters
-
-CRUD operations
-
-request body
-
-response models
-
-async endpoints
-
-handling data in memory (lists, dicts)
-
-running FastAPI with Uvicorn
-
-Each file represents part of the learning progress of the course.
+    Basic routing
+    
+    Path parameters
+    
+    Query parameters
+    
+    Request/Response handling
+    
+    CRUD operations
+    
+    Async endpoints
+    
+    Pydantic models
+    
+    Returning JSON from APIs
+    
+    Handling data in memory (lists & dictionaries)
+    
+    Running a FastAPI server using Uvicorn
 
 🚀 Technologies Used
 
-Python 3
-
-FastAPI
-
-Uvicorn
-
-Pydantic
-
-Virtual Environments (venv)
+    Python 3
+    
+    FastAPI
+    
+    Uvicorn
+    
+    Pydantic
+    
+    Virtual Environments (venv)
