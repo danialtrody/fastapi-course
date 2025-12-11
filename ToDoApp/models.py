@@ -1,7 +1,14 @@
+# ============================================================
+#                        IMPORTS
+# ============================================================
 from database import Base
 from sqlalchemy import Column, Integer, String, Boolean
 
-class ToDo(Base):
+
+# ============================================================
+#                        TODOS MODEL
+# ============================================================
+class ToDos(Base):
     __tablename__ = 'todos'
 
     id = Column(Integer, primary_key=True, index=True)
@@ -9,5 +16,3 @@ class ToDo(Base):
     description = Column(String)
     priority = Column(Integer)
     complete = Column(Boolean, default=False)
-
-    
