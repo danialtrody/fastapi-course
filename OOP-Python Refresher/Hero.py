@@ -1,6 +1,12 @@
+# ============================================================
+#                        IMPORTS
+# ============================================================
 from Weapon import *
 
 
+# ============================================================
+#                           HERO
+# ============================================================
 class Hero:
     def __init__(self, health_points, attack_damage):
         self.health_points = health_points
@@ -9,10 +15,17 @@ class Hero:
         self.weapon: Weapon = None
 
 
+    # ========================================================
+    #                     WEAPON MANAGEMENT
+    # ========================================================
     def equip_weapon(self):
         if self.weapon is not None and not self.is_weapon_equipped:
             self.attack_damage += self.weapon.attack_increase
             self.is_weapon_equipped = True
 
+
+    # ========================================================
+    #                           ATTACK
+    # ========================================================
     def attack(self):
         print(f"Hero attacks for {self.attack_damage} damage.")
