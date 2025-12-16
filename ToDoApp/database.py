@@ -9,7 +9,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # ============================================================
 #                 DATABASE CONNECTION URL
 # ============================================================
-SQLALCHEMY_DATABASE_URL = "sqlite:///todos.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///todosapp.db"
 
 
 # ============================================================
