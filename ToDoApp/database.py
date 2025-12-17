@@ -12,19 +12,19 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 # ------------------------------------------------------------
 # SQLite (local development)
 # ------------------------------------------------------------
-# SQLALCHEMY_DATABASE_URL = "sqlite:///todosapp.db"
-# engine = create_engine(
-#     SQLALCHEMY_DATABASE_URL,
-#     connect_args={"check_same_thread": False}
-# )
+SQLALCHEMY_DATABASE_URL = "sqlite:///todosapp.db"
+engine = create_engine(
+    SQLALCHEMY_DATABASE_URL,
+    connect_args={"check_same_thread": False}
+)
 
 # ------------------------------------------------------------
 # PostgreSQL (production / local postgres)
 # ------------------------------------------------------------
-SQLALCHEMY_DATABASE_URL = (
-    "postgresql://postgres:123321@localhost:5432/TodoApplicationDatabase"
-)
-
+# SQLALCHEMY_DATABASE_URL = (
+#     "postgresql://postgres:123321@localhost:5432/TodoApplicationDatabase"
+# )
+#
 
 # ============================================================
 #                           ENGINE
