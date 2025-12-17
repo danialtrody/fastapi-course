@@ -43,6 +43,18 @@ class TodoRequest(BaseModel):
     priority: int = Field(gt=0, lt=6)
     complete: bool
 
+    model_config = {
+        "json_schema_extra": {
+            "example": {
+                "title": "A new Todo",
+                "author": "danial",
+                "description": "A new description of a todo",
+                "priority": 5,
+                "complete": "false"
+            }
+        }
+    }
+
 
 # ============================================================
 #                       TODO ROUTES
