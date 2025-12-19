@@ -22,6 +22,7 @@ class Enemy:
         print(f"{self.__type_of_enemy} attacks for {self.attack_damage} damage")
 
 
+
     # ========================================================
     #                      GETTERS & SETTERS
     # ========================================================
