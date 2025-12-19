@@ -14,8 +14,8 @@ from starlette import status
 from jose import jwt, JWTError
 from passlib.context import CryptContext
 
-from ..database import SessionLocal
-from ..models import Users
+from database import SessionLocal
+from models import Users
 
 
 # ============================================================

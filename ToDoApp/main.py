@@ -8,9 +8,9 @@ from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-from .database import engine
-from .models import Base
-from .routers import auth, todos, admin, users
+from database import engine
+from models import Base
+from routers import auth, todos, admin, users
 
 
 # ============================================================

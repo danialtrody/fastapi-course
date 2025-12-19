@@ -7,9 +7,9 @@ from fastapi import APIRouter, Depends, HTTPException, Path
 from starlette import status
 from sqlalchemy.orm import Session
 
-from ..database import SessionLocal
-from ..models import ToDos
-from .auth import get_current_user
+from database import SessionLocal
+from models import ToDos
+from auth import get_current_user
 
 
 # ============================================================
