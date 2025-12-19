@@ -31,6 +31,7 @@ class Book:
 # ============================================================
 # Pydantic model for request validation (incoming JSON)
 # ============================================================
+
 class BookRequest(BaseModel):
     id: Optional[int] = Field(description="ID is not needed on create", default=None)
     title: str = Field(min_length=1)

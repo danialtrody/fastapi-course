@@ -117,6 +117,7 @@ README
 
 📚 FastAPI Books API
 
+
 A simple FastAPI project to practice:
 - GET
 - POST
