@@ -3,7 +3,7 @@
 # ============================================================
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 
-from database import Base
+from .database import Base
 
 
 # ============================================================
